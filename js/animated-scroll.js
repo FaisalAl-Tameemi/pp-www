@@ -100,6 +100,51 @@ $(document).ready(function(){
 		});
 	});
 
+	$('#test-products').on('click',function (e) {
+		e.preventDefault();
+		
+		$(this).addClass('animated flipOutX').removeClass('fadeInUp').delay(900).queue(function(next){
+			$(this).addClass('hideThis');
+			// $('#test-products-details').addClass('fadeInRight animated').removeClass('hideThis');
+		    next();
+		});
+
+		var lightbox = '<span id="test-products-details" class="animated flipInX">'+
+			  '<a href="#" id="close-test-products-details"><div class="close-lightbox">'+
+			  '<img src="images/7-GETINVOLVED/close.png" /></div></a>'+
+              '<form id="contact-form" class="cbp-mc-form" style="margin-top: 70px;" target="" onsubmit="return validate();">'+
+              '<div class="cbp-mc-column">'+
+                '<input id="name" type="text" name="name" placeholder="Patrick Jane" class="input-name-icon">'+
+                '<input id="inquiry" type="text" name="inquiry" placeholder="Im Inquiring About..." class="input-inquiry-icon"/>'+
+               '</div>'+
+               '<div class="cbp-mc-column">'+
+                '<input id="email" type="text" name="email" placeholder="example@gmail.com" class="input-email-icon">'+
+               ' <input class="light-green-button-fill" id="contact-submit" type="submit" name="send" value="SEND">'+
+               '</div>'+
+              '</form>'+
+              '<p id="response">'+
+             ' </p>'+
+            '</span>';
+		//insert lightbox HTML into page
+		$('.get-involved-first-half').append(lightbox);
+
+
+	});
+
+	$('#close-test-products-details').on('click',function (e) {
+		e.preventDefault();
+		$('#test-products-details').removeClass("").addClass("hideThis");
+	});
+
+	$('#try-workshops').on('click',function (e) {
+		e.preventDefault();
+		
+		$(this).addClass('animated flipOutX').removeClass('fadeInUp').delay(900).queue(function(next){
+			$(this).addClass('fadeInUp').removeClass('flipOutX');
+		    next();
+		});
+	});
+
 	// set interval
 	var tid = setInterval(mycode, 4000);
 	function mycode() {
