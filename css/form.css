@@ -1,0 +1,147 @@
+.cbp-mc-form {
+	position: relative;
+	width: 100%;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cbp-mc-form:before, 
+.cbp-mc-form:after { 
+	content: " "; display: table; 
+}
+
+.cbp-mc-form:after { 
+	clear: both; 
+}
+
+.cbp-mc-column {
+	width: 48%;
+	padding: 10px 30px;
+	float: left;
+}
+
+.cbp-mc-form label {
+	display: block;
+	padding: 40px 5px 5px 2px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	text-align: left;
+	color: #FC9742;
+}
+
+.cbp-mc-form input:not([type='submit']),
+.cbp-mc-form textarea,
+.cbp-mc-form select {
+	line-height: 28px;
+	font-size: 20px;
+	display: block;
+	width: 100% !important;
+	vertical-align: middle;
+	color: #27CCC0;
+}
+
+.cbp-mc-form input,
+.cbp-mc-form textarea {
+	border: 2px solid  #27CCC0;
+	width: 100%;
+}
+
+.cbp-mc-form textarea {
+	min-height: 160px;
+}
+
+.cbp-mc-form input:not([type='submit']){
+	height: 60px;
+	margin: 30px auto;
+}
+
+.cbp-mc-form input[type='submit']{
+	margin: 0;
+}
+
+.cbp-mc-form input:focus,
+.cbp-mc-form textarea:focus,
+.cbp-mc-form label:active + input,
+.cbp-mc-form label:active + textarea {
+	outline: none;
+	border: 2px dashed #27CCC0;
+}
+
+.cbp-mc-form select:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.cbp-mc-submit-wrap {
+	text-align: center;
+	padding-top: 40px;
+	clear: both;
+}
+
+.input-name-icon{
+	/*background: url(../images/6-CONTACT/pp__form_name.png) no-repeat scroll 4px 10px;*/
+	padding-left:5px;
+	background: none;
+}
+
+.input-number-icon{
+	/*background: url(../images/6-CONTACT/pp__form_number.png) no-repeat scroll 4px 10px;*/
+	padding-left:5px;
+	background: none;
+}
+
+.input-email-icon{
+	/*background: url(../images/6-CONTACT/pp__form_email.png) no-repeat scroll 4px 10px;*/
+	padding-left:5px;
+	background: none;
+}
+
+.input-inquiry-icon{
+	/*background: url(../images/6-CONTACT/pp__form_why.png) no-repeat scroll 4px 10px;*/
+	padding-left:5px;
+	background: none;
+}
+
+@media screen and (max-width: 70em) {
+	.cbp-mc-column {
+		width: 100%;
+	}
+	.cbp-mc-column:nth-child(3){
+		width: 100%;
+	}
+
+	.dark-bg{
+		min-height: 325px;
+	}
+}
+
+@media screen and (max-width: 48em) {
+	.cbp-mc-column {
+		width: 100%;
+		padding: 10px;
+	}
+}

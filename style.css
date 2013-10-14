@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	<!-- True Code, let's get started-->
+	
+	<!-- MAIN CODE-->
+	
+	
+	body {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size:10px;
+		color:#272C38;
+		}
+	
+	ha-socialmedia {
+		float:left;
+		padding-right: 10px;
+		}
+	
+	a {
+	color: #25D8B5;
+	text-decoration: none;
+	}
+
+	a:hover {
+	color: #272C38;
+	}
+
+	.logo{
+	display: table;
+	margin-top: 20px !important;
+	}
+
+	
+	.ha-header nav {
+	height: 100%;
+	padding-top: 30px;
+	float:left;
+	}
+
+	.ha-header nav a {
+	display: inline-block;
+	letter-spacing: 1px;
+	font-weight: 700;
+    padding: 0.2em 0.4em;
+    margin: 0 0.4em 0;
+    font-size: 0.88em;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+	color:#272C38;
+	}
+
+	.ha-header nav a:before{
+	content: "/";
+	padding-right: 20px;
+	}
+
+	.ha-header nav a:hover {
+	color: #272C38;
+	}
+
+	.ha-header nav a:last-child {
+    margin-right: 0;
+	}
+
+	
+	
+	
+	<!-- HOME -->
+	h2 {
+		text-align:center;
+		}
+		
+	
+	<!-- WHAT-->
+	#explanation h2{
+		color: white;
+		font-size: 60px;
+		}
+	
+	#explanation p{
+		color:white;
+		font-size: 15px;
+		}
+	
+	#explanation h1{
+		color:#272C38;
+		font-size: 40px;
+		}
+		
+	#workwithus {
+		background:#272C38; 
+		height:150px;
+		}
+		
+	#workwithus a {
+		with: 50px;
+		height:30px;
+		color: white;
+		color: #FFFFFF;
+    	cursor: pointer;
+    	display: inline-block;
+    	font-size: 18px;
+    	margin: 10px auto;
+    	padding: 5px 40px;
+    	text-align: center;
+   	 transition: background 0.1s linear 0s, color 0.1s linear 0s;
+    vertical-align: middle;
+    width: 100%;
+		}
+	
+	<!-- HOW -->
+	
+	#meet{
+		height: 40px;
+		background:white;
+		}
+		
+	#meet p {
+		color: #272C38;
+		}
+	
+	#build {
+		height:420px;
+		background:#25D8B5;
+	}
+	
+	#build h2, p{
+		color: white;
+		}
+		
+	#understand, organize, plan{
+		height:150px;
+		width:150px;
+		float:left;
+		}
+		
+	#organize{
+		height:150px;
+		width:150px;
+		float:left;
+		}
+		
+		
+	#plan{
+		height:150px;
+		width:150px;
+		float:left;
+		}
+		
+	#design {
+		height:700px;
+		color:#272C38;
+		}
+		
+	#iconcreate{
+		width:148px;
+		height:148px;
+		float:left;
+		}
+	#iconshow{
+		width:148px;
+		height:148px;
+		float:left;
+		}
+	#iconmodify{
+		width:148px;
+		height:148px;
+		float:left;
+		}
+	#icontest{
+		width:148px;
+		height:148px;
+		float:left;
+		}
+		
+	#code {
+		background:#25D8B5;
+		height:370px;
+		}
+		
+	#win{
+		height:780px;
+		}
+		
+	#win h2 {
+		padding-top:100px;
+		}
+	
+	#win img{
+			float:left;
+			width:130px;
+			height: 130px;
+			}
+	
+	
+	<!-- WORK -->
+	
+	<!--YOU-->
+	
+	
+	<!-- CONTACT US-->
+	
+	#quote {
+		text-align:center;
+		color:#272C38;
+		}
+		
+	.bigsocialmedia {
+		background: #272C38;
+		height:220px;
+		width: auto;
+		}
+		
+	.bigsocialmedia a{
+		float: left;
+		padding: 40px;
+
+		}
